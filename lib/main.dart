@@ -1,12 +1,12 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'dart:html';
 
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(
     MaterialApp(
+        debugShowCheckedModeBanner: false, // This removes the debug banner
         home: Scaffold(
       appBar: AppBar(
         title: Text('I Am Rich'),
